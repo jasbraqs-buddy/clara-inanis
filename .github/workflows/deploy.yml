@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 name: Deploy Quartz site to GitHub Pages
  
 on:
@@ -88,5 +88,5 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
->>>>>>> Stashed changes
+
         uses: actions/deploy-pages@v4
